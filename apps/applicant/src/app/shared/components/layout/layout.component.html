@@ -1,0 +1,38 @@
+<header class="bg-blue-500 text-white pt-4">
+    <h1 class="text-2xl">Applicant Application</h1>
+    <nav class="hidden md:block">
+      <ul class="bg-blue-900 flex gap-3 p-4 mt-4">
+        <li>
+          <a routerLink="/" routerLinkActive="active" class=" hover:underline">Dashboard</a>
+        </li>
+        <li>
+          <a routerLink="/colleges" routerLinkActive="active" class="hover:underline">Colleges</a>
+        </li>        
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="flex flex-col md:flex-row">  
+  
+    <div class="flex-1 p-4">
+      <!-- Main content goes here -->
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+  
+  <footer class="bg-blue-500 text-white  py-4">
+    <p class="text-sm">Copyright © 2024 Common App</p>
+  </footer>
+  
+  <!-- Bottom app bar for mobile and tablet navigation -->
+  <div class="fixed bottom-0 left-0 right-0 bg-white shadow-lg md:hidden">
+    <nav class="flex items-center justify-between px-4 py-2">
+      <button class="flex items-center text-gray-600 hover:text-gray-900 focus:outline-none">
+        <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+      </button>
+  
+      <button class="flex items-center text-gray-600 hover:text-gray-900 focus:outline-none">
+        <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 0C4.5 0 0 4.5 0 10s4.5 10 10 10 10-4.5 10-10S15.5 0 10 0zm4.4 12.6c.4.4.4 1 0 1.4s-1 .4-1.4 0L10 9.4l-3.6 3.6c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4L8.6 10 5 6.4c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0L10 10.6l3.6-3.6c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4L11.4 10l3.6 3.6z"/></svg>
+      </button>
+    </nav>
+  </div>

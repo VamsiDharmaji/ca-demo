@@ -14,8 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {
+    "paths": {      
       "@ca-demo/services/forms": ["libs/services/forms/src/index.ts"],
+      "@ca-demo/tailwind-preset": ["libs/tailwind-preset/tailwind-preset.js"],
       "forms/Routes": ["apps/forms/src/app/remote-entry/entry.routes.ts"]
     }
   },
