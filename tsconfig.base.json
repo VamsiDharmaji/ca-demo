@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ca-demo/services/forms": ["libs/services/forms/src/index.ts"],
+      "forms/Routes": ["apps/forms/src/app/remote-entry/entry.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
