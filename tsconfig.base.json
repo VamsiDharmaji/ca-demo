@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ca-demo/services/college": ["libs/services/college/src/index.ts"],
       "@ca-demo/services/forms": ["libs/services/forms/src/index.ts"],
       "@ca-demo/tailwind-preset": ["libs/tailwind-preset/tailwind-preset.js"],
       "colleges/Routes": ["apps/colleges/src/app/remote-entry/entry.routes.ts"],
