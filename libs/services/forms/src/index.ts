@@ -1,1 +1,1 @@
-export * from './lib/services-forms/services-forms.component';
+export * from './lib/forms-catalog.service';
